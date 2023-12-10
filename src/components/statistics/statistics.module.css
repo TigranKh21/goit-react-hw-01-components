@@ -1,6 +1,7 @@
 .statistics {
   margin: 0 auto;
   max-width: 350px;
+  background-color: white;
 }
 
 .title {
@@ -10,11 +11,11 @@
   padding-top: 35px;
   padding-bottom: 25px;
   color: rgb(146, 145, 145);
+  box-shadow: 2px 2px 2px gray;
 }
 .statList {
   display: flex;
   box-shadow: 2px 2px 2px gray;
-  margin-top: 10px;
 }
 
 .item {
