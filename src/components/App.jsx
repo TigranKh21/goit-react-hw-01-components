@@ -1,12 +1,9 @@
 import { Profile } from './profile/Profile';
 import user from '../user.json';
-import { Statistics, StatisticsTitle } from './statistics/Statistics';
+import { Statistics } from './statistics/Statistics';
 import data from '../data.json';
-import { getRandomRGB } from 'randomRGB';
-
-for (let i = 0; i <= 10; i++) {
-  console.log(getRandomRGB());
-}
+import { FriendList } from './friendList/FriendList';
+import friends from '../friends.json';
 
 export const App = () => {
   return (
@@ -19,6 +16,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" data={data} />
+      <FriendList friends={friends} />
     </div>
   );
 };

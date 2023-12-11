@@ -24,7 +24,7 @@
   display: flex;
 }
 
-li {
+.statslist {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ li {
   font-size: 16px;
 }
 
-ul.stats li:nth-child(2) {
+ul.stats .statslist:nth-child(2) {
   border-left: solid 0.1px rgb(210, 209, 209);
   border-right: solid 0.1px rgb(210, 209, 209);
 }

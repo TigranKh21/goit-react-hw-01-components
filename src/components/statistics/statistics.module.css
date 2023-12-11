@@ -24,6 +24,11 @@
   flex-direction: column;
   gap: 10px;
   color: white;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  width: 90px;
+  border-top: solid 0.1px rgb(210, 209, 209);
 }
 
 .label {

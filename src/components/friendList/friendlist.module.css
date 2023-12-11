@@ -1,0 +1,50 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  width: 100%;
+  color: rgb(146, 145, 145);
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.friendList {
+  margin: 10px auto;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.greenPoint {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(14, 126, 14);
+}
+
+.redPoint {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(198, 32, 32);
+}
+
+.avatar {
+  height: 80px;
+  width: 80px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.status {
+  margin-left: 15px;
+}
