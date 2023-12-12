@@ -4,6 +4,8 @@ import { Statistics } from './statistics/Statistics';
 import data from '../data.json';
 import { FriendList } from './friendList/FriendList';
 import friends from '../friends.json';
+import { TransactionHistory } from './transactions/TransactionHistory';
+import tableData from '../transactions.json';
 
 export const App = () => {
   return (
@@ -17,6 +19,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" data={data} />
       <FriendList friends={friends} />
+      <TransactionHistory tableData={tableData} />
     </div>
   );
 };

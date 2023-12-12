@@ -1,0 +1,38 @@
+table {
+  table-layout: fixed;
+  margin: 10px auto;
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgba(121, 200, 207, 0.925);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #daf6fe;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  font-weight: 600;
+  color: white;
+}
+td {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: rgb(146, 145, 145);
+}
+
+tbody {
+  width: 100%;
+}

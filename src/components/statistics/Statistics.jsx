@@ -3,8 +3,8 @@ import { getRandomRGB } from 'randomRGB';
 
 export const Statistics = ({ title = '', data }) => {
   return (
-    <section class={css.statistics}>
-      {title ? <h2 class={css.title}>{title}</h2> : null}
+    <section className={css.statistics}>
+      {title ? <h2 className={css.title}>{title}</h2> : null}
       <ul className={css.statList}>
         {data.map(item => (
           <li
