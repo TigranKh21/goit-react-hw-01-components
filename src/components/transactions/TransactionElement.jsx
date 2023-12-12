@@ -1,4 +1,4 @@
-import css from 'components/transactions/transactions.module.css';
+import css from 'components/transactions/Transactions.module.css';
 
 export const TransactionElement = ({ type, amount, currency }) => {
   return (
