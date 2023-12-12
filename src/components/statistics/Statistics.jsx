@@ -1,4 +1,4 @@
-import css from './Statistics.module.css';
+import css from 'components/statistics/statistics.module.css';
 import { getRandomRGB } from 'randomRGB';
 
 export const Statistics = ({ title = '', data }) => {

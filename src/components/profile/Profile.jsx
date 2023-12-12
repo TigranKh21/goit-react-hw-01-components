@@ -1,4 +1,4 @@
-import css from './Profile.module.css';
+import css from 'components/profile/profile.module.css';
 
 export const Profile = user => {
   return (
